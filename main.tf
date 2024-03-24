@@ -1,8 +1,4 @@
 
-provider "alicloud" {
-  profile                 = "ali_sh"
-  shared_credentials_file = "/Users/hading/.aliyun/config.json"
-}
 
 data "alicloud_vpcs" "vpcs_ds" {
   cidr_block = "10.0.0.0/8"
