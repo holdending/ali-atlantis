@@ -3,7 +3,7 @@ automerge: true
 projects:
   - name: alish
     dir: ali-sh
-    # workspace: default
+    workspace: default
     # workflow: select_prod
     terraform_version: v1.7.5
  
